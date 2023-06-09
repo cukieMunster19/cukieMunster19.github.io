@@ -21,11 +21,25 @@
       <nav>
         <div class="nav-content">
           <ul>
-            <li><a href="#">Profile/Settings</a></li>
-            <li><a href="#">Recipe Box</a></li>
-            <li><a href="#">Planner></a>
+            <div class="subnav">
+              <button class="subnavbtn">Profile <i class="fa fa-caret-down"></i></button>
+              <div class="subnav-content">
+                <a href="#settings">Settings</a>
+                <a href="#logout">Logout</a>
+                <a href="#feedback">Feedback</a>
+              </div>
+          </div>
+            <div class="subnav">
+              <button class="subnavbtn">Recipe Box <i class="fa fa-caret-down"></i></button>
+              <div class="subnav-content">
+                <a href="#saved">Saved</a>
+                <a href="#recent">Recent</a>
+                <a href="#import">Import</a>
+              </div>
+          </div>
+            <li><a href="#planner">Planner</a></li>
             <li><input type="text" placeholder="Search.."></a></li>
-            <li><a href="#">Filter</a></li>
+            <li><a href="#filter">Filter</a></li>
           </ul>
         </div>
       </nav>
@@ -402,7 +416,7 @@
         <ul>
             <li><a href="#">Profile/Settings</a></li>
             <li><a href="#">Recipe Box</a></li>
-            <li><a href="#">Planner></a>
+            <li><a href="#">Planner</a></li>
             <li><input type="text" placeholder="Search.."></a></li>
             <li><a href="#">Filter</a></li>
         </ul>
