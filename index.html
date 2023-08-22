@@ -1,7 +1,186 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Keily's Cozy Quilts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Work+Sans&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="style.css"/>
+      <style>
+    /* CSS styles for the navigation menu */
+    ul.navbar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #f9f9f9;
+    }
+
+    ul.navbar li {
+      float: left;
+    }
+
+    ul.navbar li a {
+      display: block;
+      color: #333;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    ul.navbar li a:hover {
+      background-color: #ddd;
+    }
+
+    /* CSS styles for the subnav */
+    ul.subnav {
+      display: none;
+      list-style-type: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    ul.navbar li:hover ul.subnav {
+      display: block;
+    }
+
+    ul.subnav li {
+      float: none;
+    }
+
+    ul.subnav li a {
+      color: #333;
+      padding: 8px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    ul.subnav li a:hover {
+      background-color: #ddd;
+    }
+  </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <img src="images/az.png" alt="Logo">
+        <h1 class="header-title">Keily's Cozy Quilts</h1>
+      </div>
+      <div class="social-links">
+        <a href="https://www.facebook.com/profile.php?id=100090561790067&sk=about"><img src="images/facebook.png"></a>
+        <a href="https://www.instagram.com/keilyscozyquilts/"><img src="images/instagram.png"></a>
+      </div>
+      <nav>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <ul class="navbar">
+    <li><a href="#">Home</a></li>
+    <li>
+      <a href="#">Profile</a>
+      <ul class="subnav">
+        <li><a href="#">Settings</a></li>
+        <li><a href="#">Login/Logout</a></li>
+        <li><a href="#">Feedback</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Recipe Box</a>
+      <ul class="subnav">
+        <li><a href="#">Saved</a></li>
+        <li><a href="#">Recent</a></li>
+        <li><a href="#">Import</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Planner</a>
+      <ul class="subnav">
+        <li><a href="#">Schedule</a></li>
+        <li><a href="#">Share</a></li>
+      </ul>
+      <li><input type="text" name="search" placeholder="Search..."></a></li>
+        <script async src="https://cse.google.com/cse.js?cx=f41021fca77c9469a"></script>
+        <div class="gcse-searchbox-only" data-resultsUrl=https://cukiemunster19.github.io/results></div>
+    </li>
+    <li>
+      <a href="#">Filter</a>
+      <ul class="subnav">
+        <li><a href="#">Category</a></li>
+        <li><a href="#">Ingredient</a></li>
+      </ul>
+    </li>
+    <li>
+  </div>
+</nav>
+</header>
+    <main>
+      <section id="search">
+        <script async src="https://cse.google.com/cse.js?cx=f41021fca77c9469a"></script>
+        <div class="gcse-searchresults-only"></div>
+      </section>
+      <section id="pricing">
+        <ul>
+          <li>Edge-to-Edge (E2E) designs – $0.02/square inch</li>
+          <li>Example: 70X85 quilt top would cost $119  (70X85X.02=$119)</li>
+        </ul>
+        <h2>Steps for Quilting:</h2>
+        <ol>
+          <li>Pick a pattern. Check out the "Stitch Patterns" tab and be sure to include the name of the pattern of your choosing when contacting Keily’s Cozy Quilts.</li>
+          <li>Thread choices. We carry a variety of solid colored thread. We will select the best color thread to compliment your quilt top. If you have a specific color preference, we’ll do our best to accommodate. We use the same color thread for both the top and backing unless specifically requested.</li>
+          <li>You may provide your own batting or purchase one of the options we have on hand.
+            <ul>
+              <li>$9 a yard - 80/20 Cotton Batting</li>
+            </ul>
+            <p>All yardage bolts are 93” wide. If your quilt is wider than 85” on both sides, you will need to provide your own batting and ship with your quilt top.</p>
+          </li>
+          <li>Shipping: We can accommodate any of the following ways to handoff your project and will follow up with details about each in our confirmation email once you’ve filled out our online form. 
+            <ul>
+              <li>Drop off and pick up from Keily’s Cozy Quilts at our Chandler AZ Location. – Free</li>
+              <li>Ship to Keily’s Cozy Quilts. – Return shipping included on final invoice</li>
+            </ul>
+          </li>
+        </ol>
+        <div class="button-container">
+          <a href="#" class="book-btn">Book My Quilt</a>
+        </div>
+      </section>
+      <section id="book-quilt-form" style="display: none;">
+        <div class="content book-quilt-form-content">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdRx3Vxuw7hf546a3VdWL65Qlncwt-mtFl0NkxS3OCBaWeXNQ/viewform?embedded=true" width="640" height="462" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+      </section>    
+      <section id="stitch-patterns" class="stitch-section">
+        <h1 class="stitch-patterns-h1">If you can't find a suitable stitch pattern, feel free to contact me using any of the methods listed under the Contact page to discuss your options. Please note that this alternative may incur an additional cost.</h1>
+        <div class="stitch-gallery">
+          <figure><img src="stitchpatterns/Screen Shot 2023-02-21 at 11.26.40 AM.png" class="stitch-pattern"/></figure>
+        </section>
+      <section id="contact">
+        <div class="contact-info">
+          <h1 class="contact-h1">Email address: joreo872005@yahoo.com</h1>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfZ0hTEE7zOW19ByAeISKJwXiGTchnzEORSNccHTT8FMvXpJA/viewform?embedded=true" width="640" height="462" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+      </section>
+      <section id="gallery">
+        <h1 class="gallery-h1">Here are a few of my favorite quilts</h1>
+        <div class="photo-gallery">
+          <img class="square" src="images/IMG_0131.JPG" alt="Photo 1" />
+        </div>
+      </section>
+    </main>
+    <div class="nav-bottom">
+      <div class="nav-content">
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">API</a></li>
+        </ul>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2023 Recipe Box. All rights reserved.</p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
 </html>

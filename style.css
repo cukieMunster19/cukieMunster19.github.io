@@ -1,0 +1,478 @@
+header {
+    background-color:  #5e9b86;
+    color: white;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    position: sticky;
+    z-index: 2;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 2vw;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    pointer-events: auto;
+    min-height: 10px;
+    }
+  
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+  
+  body {
+    display: block;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+    
+    h1 {
+      font-weight: bold;
+      padding: 0.5em;
+      line-height: 1.3;
+    }
+    main {
+      max-width: 800px;
+      margin: 0 auto ;
+      box-sizing: border-box;
+    }
+    
+    
+    section {
+      margin: 30px 0;
+      display: none;
+    }
+    
+    nav {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      text-align: center;
+      z-index: 1;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+  
+    .nav-content ul,
+    .nav-bottom ul {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .nav-content .book-my-quilt-wrapper,
+    .nav-bottom .book-my-quilt-wrapper {
+      margin-left: auto;
+    }
+    
+  
+    nav ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }  
+    
+    nav li {
+      margin: 0 10px;
+    }
+    
+    nav a {
+      text-decoration: none;
+      color: #5e9b86;
+    }
+     
+    /* nav a:hover {
+      text-decoration: underline;
+    } */
+  
+    nav, .nav-bottom {
+      display: flex;
+      justify-content: center;
+      background-color: #c1d0bf;
+      width: 100%;
+      text-align: center;
+      z-index: 1;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+    
+    nav ul, .nav-bottom ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    
+    nav li, .nav-bottom li {
+      margin: 0 10px;
+    }
+    
+    nav a, .nav-bottom a {
+      text-decoration: none;
+      color: white;
+      font-size: 30px;
+      font-family: 'Dancing Script', cursive;
+    }
+    
+    nav a:hover, .nav-bottom a:hover {
+      text-decoration: underline;
+    }
+  
+    /* Header Styling */
+    .header-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .header-title {
+      position: absolute;
+      font-family: 'Dancing Script', cursive;
+      font-size: 60px;
+      margin: 0;
+      text-align: center;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .header-container img {
+      margin-right: 600px;
+      vertical-align: middle;
+      margin-bottom: 20px;
+    }
+    
+    /* Photo Gallery */
+    
+    .gallery-h1 {
+      text-align: center;
+    }
+  
+    .photo-gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+      aspect-ratio: 1/1;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .photo-gallery img {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+    }
+    .photo-gallery .square {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    
+    .photo-gallery .square img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      object-position: center;
+      transition: all 0.3s;
+    }
+  
+    /* Form Wrapper */
+    .form-wrapper {
+      visibility: visible;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #ffffff;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      padding: 2rem;
+      z-index: 2;
+    }
+  
+    iframe {
+      display: block;
+    }
+    
+    
+    .form-wrapper.show {
+      display: block;
+    }
+    
+    
+  
+  /* Social Links */
+    .social-links {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-right: 10px;
+    }
+    
+    .social-links img {
+      height: 30px;
+      width: 30px;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+  
+  /* About Page */
+    
+    #about {
+      display: block;
+      overflow: hidden;
+    }
+    
+    #about img {
+      float: left;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+    
+    #about p {
+      margin: auto 
+    }
+    /* Footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+      margin-top: -20px;
+    }
+  
+    .pricing-h1 {
+      font-weight: normal;
+    }
+    .contact-h1 {
+      font-weight: normal;
+    }
+    
+    /* Stitch Patterns */
+  
+    .stitch-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-gap: 10px;
+    }
+  
+    .stitch-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-gap: 10px;
+    }
+    
+    .stitch-section .stitch-pattern img {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1/1;
+    }
+    
+    .stitch-pattern {
+      width: 200px;
+      height: 200px;
+    }
+    
+    .stitch-pattern img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    
+      .stitch-pattern p {
+      margin-top: 10px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  
+    /* Book My Quilt Buttons */
+  
+    .book-btn {
+      background-color: #5e9b86;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      text-decoration: none;
+    }
+    
+    .book-btn:hover {
+      background-color: #5e9b86;
+      text-decoration: underline;
+    }
+   
+    .hidden {
+      display: none;
+    }
+  
+    .pricing .book-btn {
+      display: block;
+      margin: 0 auto;
+    }
+  
+    .button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .book-my-quilt-wrapper {
+      margin-left: auto;
+    }
+    
+  
+  @media screen and (min-width: 768px) {
+      .photo-gallery {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      .photo-gallery img {
+        width: calc(33.33vw * 0.8);
+        height: calc(33.33vw * 0.8);
+    }
+    }
+    
+  @media screen and (max-width: 767px) {
+      .photo-gallery {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .photo-gallery img {
+      aspect-ratio: 1/1;    
+    }
+  }
+    
+  @media screen and (max-width: 480px) {
+      .photo-gallery {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .photo-gallery img {
+        height: calc(100vw * 0.8);
+      }
+    }
+    
+  @media screen and (min-width: 1024px) {
+  
+    .stitch-patterns {
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      grid-gap: 100px;
+      justify-items: center;
+    }
+    .stitch-pattern {
+      text-align: center;
+      margin: 4px;
+    }
+    .stitch-pattern img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      object-position: center;
+    }
+    .stitch-pattern p {
+      margin-top: 10px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+  
+    
+    @media screen and (max-width: 1023px) and (min-width: 768px) {
+      .stitch-patterns {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(calc(10% - 20px), 1fr));
+        grid-gap: 20px;
+        justify-items: center;
+      }
+      .stitch-pattern {
+        text-align: center;
+      }
+      .stitch-pattern img {
+        width: 60%;
+        height: auto;
+      }
+      .stitch-pattern p {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+    
+    @media screen and (max-width: 767px) {
+      .stitch-gallery {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .stitch-patterns {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(calc(10% - 20px), 1fr));
+        grid-gap: 20px;
+        justify-items: center;
+      }
+      .stitch-pattern {
+        text-align: center;
+      }
+      .stitch-pattern img {
+        width: 65%;
+        height: auto;
+      }
+      .stitch-pattern p {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+    
+    @media screen and (max-width: 480px) {
+      .stitch-gallery {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .stitch-patterns {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(calc(10% - 20px), 1fr));
+        grid-gap: 20px;
+        justify-items: center;
+      }
+      .stitch-pattern {
+        text-align: center;
+      }
+      .stitch-pattern img {
+        width: 75%;
+        height: auto;
+      }
+      .stitch-pattern p {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+  
+    @media screen and (max-width: 480px) {
+      .header-title {
+        font-size: 40px;
+      }
+    }
+    
+    @media screen and (max-width: 480px) {
+      nav a, .nav-bottom a {
+        color: #5e9b86;
+      }
+    
+      nav a:hover, .nav-bottom a:hover {
+        text-decoration: underline;
+        color: #5e9b86;
+      }
+    }
+    
+    @media screen and (max-width: 428px) {
+      nav a, .nav-bottom a {
+        color: #5e9b86;
+      }
+    
+      nav a:hover, .nav-bottom a:hover {
+        text-decoration: underline;
+        color: #5e9b86;
+      }
+    }
+    
